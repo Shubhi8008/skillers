@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "user": {
+    "name": "Your Name",
+    "address_as": "Your Name",
+    "signoff": "",
+    "voice": ["short, plain, direct English", "no em dashes", "no corporate jargon"]
+  },
+  "os": "windows",
+  "runner": "desktop-commander",
+  "paths": {
+    "repo": "E:\\skillsers\\skillers",
+    "vault": "E:\\voltas\\skillers",
+    "research": "E:\\skillsers",
+    "papers": "{paths.research}\\03-papers",
+    "boards": "{paths.vault}\\refs"
+  },
+  "scope_lock": "{paths.vault}\\00 Scope Lock.md",
+  "sources": {
+    "dribbble": true,
+    "awwwards": true,
+    "godly": true,
+    "behance": false,
+    "pinterest": false,
+    "cosmos": false,
+    "mobbin": false
+  },
+  "defaults": {
+    "platform": "web",
+    "options": 3
+  },
+  "tokens": {
+    "github_env_var": "GITHUB_TOKEN"
+  }
+}

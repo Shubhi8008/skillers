@@ -1,0 +1,50 @@
+# One GitHub search query per line. Lines starting with # are ignored.
+# The harvester rotates through these, pages 1 to 3, sorted by stars and by recent updates.
+claude skill ui ux
+claude code skill design
+agent skills design
+SKILL.md design
+anti slop design
+ai slop ui
+design taste agent
+wireframe generator ai
+ux audit skill
+usability heuristics skill
+laws of ux
+accessibility audit agent
+design system skill
+design tokens generator
+figma mcp
+design inspiration mcp
+moodboard ai
+design reference search
+ui screenshot search
+visual search clip
+semantic image search
+clip retrieval
+siglip image search
+screenshot to code
+ui to code
+web scraper llm
+web crawler ai agents
+playwright scraper
+browser automation agent
+pinterest scraper
+dribbble scraper
+behance scraper
+website screenshot api
+og image extractor
+saliency prediction ui
+eye tracking dataset gui
+gui dataset
+ui understanding model
+paper search mcp
+arxiv download
+obsidian canvas
+obsidian skill
+topic:claude-skills
+topic:agent-skills
+topic:mcp-server design
+topic:design-inspiration
+topic:ui-design stars:>200
+topic:ux-design stars:>100

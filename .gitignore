@@ -1,0 +1,12 @@
+# harvester data (stays on the user's machine)
+tools/harvest/repos.csv
+tools/harvest/state.json
+tools/harvest/queue.txt
+tools/harvest/log.txt
+tools/harvest/readmes/
+tools/harvest/harvest-index.md
+# personal config and build output
+skillers.config.json
+dist/
+__pycache__/
+.DS_Store

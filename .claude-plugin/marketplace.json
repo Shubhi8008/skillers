@@ -1,0 +1,12 @@
+{
+  "name": "skillers",
+  "owner": { "name": "Shubham Singh Raghav" },
+  "plugins": [
+    {
+      "name": "skillers",
+      "source": "./",
+      "description": "Design skill library: prompt to references, research-backed wireframes, anti-slop budgets, paper fetching, scope guard.",
+      "version": "0.1.0-beta"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Web pages and curated lists to mine for github.com/owner/repo links. One URL per line.
+# raw.githubusercontent.com files do not count against the GitHub API limit.
+https://raw.githubusercontent.com/travisvn/awesome-claude-skills/HEAD/README.md
+https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/HEAD/README.md
+https://raw.githubusercontent.com/hesreallyhim/awesome-claude-code/HEAD/README.md
+https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/HEAD/README.md
+https://raw.githubusercontent.com/wong2/awesome-mcp-servers/HEAD/README.md
+https://raw.githubusercontent.com/VoltAgent/awesome-design-md/HEAD/README.md
+https://raw.githubusercontent.com/gztchan/awesome-design/HEAD/README.md
+https://raw.githubusercontent.com/bradtraversy/design-resources-for-developers/HEAD/readme.md
+https://raw.githubusercontent.com/alexpate/awesome-design-systems/HEAD/README.md
+https://raw.githubusercontent.com/goabstract/Awesome-Design-Tools/HEAD/README.md
+https://raw.githubusercontent.com/noahelhadedy/347-design-inspiration-sites/HEAD/README.md
+https://raw.githubusercontent.com/unclecode/crawl4ai/HEAD/README.md
+https://skills.sh/
+https://claudemarketplaces.com/
+https://mcpmarket.com/
+https://lobehub.com/mcp
