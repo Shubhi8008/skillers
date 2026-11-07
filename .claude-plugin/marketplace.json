@@ -7,7 +7,7 @@
     {
       "name": "skillers",
       "source": "./",
-      "description": "One design skill: prompt to references collage, research-backed wireframes, anti-slop audits, open-access papers, full pipeline, scope guard.",
+      "description": "One design skill: prompt to references collage, research-backed wireframes, anti-slop audits, open-access papers, full pipeline, scope guard. Plus git repo and codebase cleanup.",
       "version": "0.2.0-beta"
     }
   ]

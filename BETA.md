@@ -35,3 +35,4 @@ A mode moves from beta to stable when 3 logged runs in a row average **4 or more
 | anti-slop | beta | 1 (manual, 2026-11-07) | |
 | papers | beta | 1 (manual, 2026-11-07) | |
 | autopilot | beta | 0 | |
+| repo | beta | 0 | |

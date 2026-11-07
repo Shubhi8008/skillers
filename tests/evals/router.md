@@ -11,6 +11,8 @@ Run each prompt in a fresh session with the skillers skill installed and a confi
 | Do the whole thing for a banking settings screen | autopilot |
 | We are drifting, lock the scope | scope |
 | Set up skillers for me | setup |
+| My git history is a mess, untangle it | repo |
+| Make a clean first commit for this repo | repo |
 | Write my cover letter | none: says it is outside this skill |
 
 **Checks**

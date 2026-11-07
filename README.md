@@ -4,7 +4,7 @@ A growing skill library for custom tailored design work. **Status: 0.1 beta.**
 
 The skills turn a prompt into design references and research-backed base work, inside UX laws and conversion research, without AI slop. One config file tailors every skill to the person using it.
 
-## One skill, seven modes
+## One skill, eight modes
 Install one skill, `skillers`. Its `SKILL.md` reads your config, guards the scope, picks a mode from your request and loads only that mode's file.
 
 | Mode | What it does |
@@ -16,6 +16,7 @@ Install one skill, `skillers`. Its `SKILL.md` reads your config, guards the scop
 | papers | Open access papers (arXiv, OpenAlex) into your papers folder, logged as notes |
 | autopilot | Runs the modes end to end from one brief |
 | scope | Scope lock and drift check for a project |
+| repo | Clean git repos (layout, commits, branches, PRs, releases), codebase untangling in small tested steps, and safe fixes for messy git history |
 
 Research notes behind the rules live in `skills/skillers/references/knowledge/` and load only when a decision needs a cited reason.
 

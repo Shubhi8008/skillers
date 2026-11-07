@@ -1,6 +1,6 @@
 ---
 name: skillers
-description: One skill for tailored design work. Prompt to a references collage, research-backed wireframes, anti-slop audits, open-access papers, a full design pipeline, and a scope guard, set per user by one config. Use for references, moodboards, wireframes, UX audits and design research.
+description: One skill for tailored design work: references collage from a prompt, research-backed wireframes, anti-slop audits, open-access papers, a full pipeline, scope guard, and git repo and codebase cleanup. Set per user by one config.
 ---
 
 # Skillers
@@ -23,8 +23,9 @@ If `{scope_lock}` exists, read it and run the drift check in `references/modes/s
 | papers | a decision needs a source, download papers or PDFs, reading list | `references/modes/papers.md` |
 | autopilot | one brief that needs the whole job: structure, references, cut, critique, evidence | `references/modes/autopilot.md` |
 | scope | drifting, stay on brief, lock or update the scope | `references/modes/scope.md` |
+| repo | git repo setup, commits, branches, PRs, releases; messy codebase or refactor; messy git history, conflicts, lost work | `references/modes/repo.md` |
 
-If two modes fit, run them in this order: references, base-work, anti-slop, papers. If more than two fit, use autopilot. If none fit, say the request is outside this skill.
+If two modes fit, run them in this order: references, base-work, anti-slop, papers. Repo mode runs alone. If more than two fit, use autopilot. If none fit, say the request is outside this skill.
 
 ## 4. Knowledge, on demand
 Load a file from `references/knowledge/` only when a decision needs a cited reason:
