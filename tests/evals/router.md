@@ -9,6 +9,8 @@ Run each prompt in a fresh session with the skillers skill installed and a confi
 | This landing page looks like AI, fix it | anti-slop |
 | Get me the UIClip paper | papers |
 | Do the whole thing for a banking settings screen | autopilot |
+| Design a pricing page for a B2B tool, with references | autopilot |
+| Find references and then wireframe a portfolio case study page | autopilot |
 | We are drifting, lock the scope | scope |
 | Set up skillers for me | setup |
 | My git history is a mess, untangle it | repo |

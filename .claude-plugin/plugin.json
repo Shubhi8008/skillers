@@ -1,6 +1,6 @@
 {
   "name": "skillers",
-  "version": "0.2.0-beta",
+  "version": "0.3.0-beta",
   "description": "One design skill with modes: prompt to references collage, research-backed wireframes, anti-slop audits, open-access papers, full pipeline, scope guard, git repo and codebase cleanup. Tailored per user through one config file.",
   "author": {
     "name": "Shubham Singh Raghav"
