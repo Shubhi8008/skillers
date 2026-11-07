@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0-beta (2026-11-07)
+- **Autonomous autopilot.** Autopilot now chains all 8 modes: setup (no questions when config is missing), scope, anti-slop budget, the skill's own references mode, base-work, anti-slop cut and score, critique, copy, papers for unsourced decisions, run log, and a repo-mode commit on a `run/<slug>` branch when the run sits in a git repo.
+- Modes hand off through one run folder, `{paths.runs}/YYYY-MM-DD-<slug>/`, so a run can resume in a later session. New config key `paths.runs`.
+- User reactions after a run rerun only the stages they touch.
+- Router: any design brief that is not one named job goes to autopilot.
+- Evals: autopilot cases for hand-off, refine and missing config; two new router rows.
+
 ## 0.2.0-beta (2026-11-07)
 - **One skill.** The 8 separate skills are merged into a single `skills/skillers` skill. `SKILL.md` loads the config, runs the scope check, routes the request to one of 7 modes (setup, references, base-work, anti-slop, papers, autopilot, scope) and loads only that mode's file from `references/modes/`.
 - Research notes moved to `references/knowledge/`, scripts to `scripts/`, scope lock template to `references/scope-lock-template.md`.

@@ -62,6 +62,7 @@ Save as `<board>\picks.json`.
 4. Link the board from `{paths.vault}/Welcome.md` if it exists.
 
 ## 8. Refine with the user
+Under autopilot, skip this step during the run: the Top picks group counts as chosen. Run it when the user reacts after the run.
 Read their reaction in plain words and act on it:
 - "keep 3 and 7" → move to Top picks, add their tags to `liked`.
 - "drop dark ones" → remove them, add the trait to `disliked`, filter remaining candidates.

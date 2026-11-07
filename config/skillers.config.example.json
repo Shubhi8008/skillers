@@ -13,7 +13,8 @@
     "vault": "E:\\voltas\\skillers",
     "research": "E:\\skillsers",
     "papers": "{paths.research}\\03-papers",
-    "boards": "{paths.vault}\\refs"
+    "boards": "{paths.vault}\\refs",
+    "runs": "{paths.vault}\\runs"
   },
   "scope_lock": "{paths.vault}\\00 Scope Lock.md",
   "sources": {

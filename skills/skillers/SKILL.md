@@ -21,11 +21,11 @@ If `{scope_lock}` exists, read it and run the drift check in `references/modes/s
 | base-work | wireframe, layout, structure, information architecture, "how should this page be laid out" | `references/modes/base-work.md` |
 | anti-slop | audit, declutter, simplify, "looks like AI", budgets before generating | `references/modes/anti-slop.md` |
 | papers | a decision needs a source, download papers or PDFs, reading list | `references/modes/papers.md` |
-| autopilot | one brief that needs the whole job: structure, references, cut, critique, evidence | `references/modes/autopilot.md` |
+| autopilot | a design brief that is not one named job ("design a pricing page", "do the whole thing"); a reaction to an earlier run | `references/modes/autopilot.md` |
 | scope | drifting, stay on brief, lock or update the scope | `references/modes/scope.md` |
 | repo | git repo setup, commits, branches, PRs, releases; messy codebase or refactor; messy git history, conflicts, lost work | `references/modes/repo.md` |
 
-If two modes fit, run them in this order: references, base-work, anti-slop, papers. Repo mode runs alone. If more than two fit, use autopilot. If none fit, say the request is outside this skill.
+Use a single mode only when the request names that one job. If two or more fit, or the request is a design brief, run autopilot: it chains every mode through one run folder without stopping. Repo mode runs alone unless autopilot calls it to commit a run. If none fit, say the request is outside this skill.
 
 ## 4. Knowledge, on demand
 Load a file from `references/knowledge/` only when a decision needs a cited reason:
