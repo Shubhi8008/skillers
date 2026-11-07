@@ -11,5 +11,5 @@ done
 mkdir -p "$HOME/.skillers"
 if [ ! -f "$HOME/.skillers/config.json" ]; then
   cp "$here/config/skillers.config.example.json" "$HOME/.skillers/config.json"
-  echo "created ~/.skillers/config.json (run the skillers-setup skill to tailor it)"
+  echo "created ~/.skillers/config.json (ask Claude to "set up skillers" to tailor it)"
 fi

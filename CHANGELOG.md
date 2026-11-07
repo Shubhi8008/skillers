@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0-beta (2026-11-07)
+- **One skill.** The 8 separate skills are merged into a single `skills/skillers` skill. `SKILL.md` loads the config, runs the scope check, routes the request to one of 7 modes (setup, references, base-work, anti-slop, papers, autopilot, scope) and loads only that mode's file from `references/modes/`.
+- Research notes moved to `references/knowledge/`, scripts to `scripts/`, scope lock template to `references/scope-lock-template.md`.
+- Evals renamed per mode, plus `tests/evals/router.md` for mode picking.
+- **repo mode** (new): git repo craft, codebase untangle and git history untangle merged into one mode file, `references/modes/repo.md`, with non-interactive git recipes. Eval cases in `tests/evals/repo.md`.
+
 ## 0.1.0-beta (2026-11-07)
 First packaged release of the library.
 

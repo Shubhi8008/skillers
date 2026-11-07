@@ -1,6 +1,6 @@
-# Evals: design-autopilot
+# Evals: skillers, autopilot mode
 
-Run each prompt in a fresh session with the library installed and a config set. Tick each check, then score with the rubric in BETA.md.
+Run each prompt in a fresh session with the skillers skill installed and a config set. Tick each check, then score with the rubric in BETA.md.
 
 ## Case 1
 **Prompt:** Run the full pipeline on a settings screen for a banking app

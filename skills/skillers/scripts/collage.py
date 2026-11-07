@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""collage.py : helper for the reference-collage skill.
+"""collage.py : helper for skillers references mode.
 
   sheet   BOARD_DIR                 -> numbered contact sheet _sheet.jpg from _thumbs + *.json (for Claude to look at)
   palette BOARD_DIR id1 id2 ...     -> dominant colours of the picked thumbnails, written to _palette.json

@@ -1,14 +1,9 @@
----
-name: skillers-setup
-description: First-run setup that tailors the skillers library to one user. Writes the skillers config (paths, voice, sign-off, OS, script runner, enabled reference sources). Use when another skillers skill finds no config, or when the user says set up skillers, tailor the skills, or change my skillers settings.
----
-
 # Skillers setup
 
-Every skillers skill reads one config file. This skill creates or edits it.
+Every skillers mode reads one config file. This mode creates or edits it.
 
 ## Where the config lives
-Lookup order used by all skills:
+Lookup order used by every mode:
 1. `$SKILLERS_CONFIG` (environment variable with a full path)
 2. `./skillers.config.json` in the current project
 3. `~/.skillers/config.json`
@@ -34,7 +29,7 @@ Start from `config/skillers.config.example.json` in the repo. Keep keys, change 
 - Read the file back and show the user a 5 line summary.
 
 ## 4. Scope lock (optional)
-If the user is running a project, create `{paths.vault}/00 Scope Lock.md` from the template in the `skillers-scope-guard` skill and set `scope_lock` in the config.
+If the user is running a project, create `{paths.vault}/00 Scope Lock.md` from the template in scope mode and set `scope_lock` in the config.
 
 ## Rules
 - Never write tokens, passwords or keys into the config. If a tool needs a token, tell the user to set an environment variable themselves and record only its name.

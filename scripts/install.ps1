@@ -11,4 +11,4 @@ foreach ($d in Get-ChildItem (Join-Path $here "skills") -Directory) {
 }
 $cfgDir = Join-Path $HOME ".skillers"; New-Item -ItemType Directory -Force -Path $cfgDir | Out-Null
 $cfg = Join-Path $cfgDir "config.json"
-if (-not (Test-Path $cfg)) { Copy-Item (Join-Path $here "config\skillers.config.example.json") $cfg; "created $cfg (run the skillers-setup skill to tailor it)" }
+if (-not (Test-Path $cfg)) { Copy-Item (Join-Path $here "config\skillers.config.example.json") $cfg; "created $cfg (ask Claude to "set up skillers" to tailor it)" }
