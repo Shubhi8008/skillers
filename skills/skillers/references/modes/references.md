@@ -1,12 +1,4 @@
----
-name: reference-collage
-description: Find design references online from a prompt, rank them with UX laws and anti-slop rules, and build an editable Obsidian canvas collage; refine with more-like-this and extract a direction brief. Use for moodboards, inspiration and references.
----
-
 # Reference collage
-
-## Config
-Read the skillers config first: `$SKILLERS_CONFIG`, else `./skillers.config.json`, else `~/.skillers/config.json`. If none exists, run the `skillers-setup` skill once, then continue. Values in `{braces}` below come from that file.
 
 Goal: references that match the meaning of the prompt, not its keywords, with a reason for every pick. Then let the user curate.
 
@@ -38,8 +30,8 @@ Dribbble extractor JS:
 JSON.stringify([...document.querySelectorAll('li.shot-thumbnail, li[id^=screenshot]')].map((li,k)=>{const a=li.querySelector('a.shot-thumbnail-link, a[href*="/shots/"]');const i=li.querySelector('img');const t=li.querySelector('.shot-title,[class*=title]');const by=li.querySelector('.display-name,[class*=user-information] a');return {id:'dr'+(k+1),source:'Dribbble',title:t?t.textContent.trim().slice(0,80):(i?i.alt:''),author:by?by.textContent.trim().slice(0,40):'',page:a?new URL(a.getAttribute('href'),location.origin).href:null,img:i?(i.getAttribute('data-src')||i.currentSrc||i.src):null}}).filter(s=>s.page&&s.img&&/\/shots\//.test(s.page)&&!/avatars/.test(s.img)))
 ```
 
-Scripts live in `{paths.repo}/skills/reference-collage/scripts/`. `refs.ps1` needs Windows (run it with `{runner}`); `collage.py` needs Python 3 with Pillow on any machine that can see the board folder.
-`powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File {paths.repo}\skills\reference-collage\scripts\refs.ps1 -Mode <mode> ...`
+Scripts live in `{paths.repo}/skills/skillers/scripts/`. `scripts/refs.ps1` needs Windows (run it with `{runner}`); `scripts/collage.py` needs Python 3 with Pillow on any machine that can see the board folder.
+`powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File {paths.repo}\skills\skillers\scripts\refs.ps1 -Mode <mode> ...`
 Only use sources marked true in `{sources}`.
 
 ## 4. Look before judging
@@ -78,7 +70,7 @@ Read their reaction in plain words and act on it:
 Re-run steps 5 to 7 on each change. Keep `liked` and `disliked` in the board note so the next session continues the same taste.
 
 ## 9. Hand off
-Output the direction brief for `ux-base-work` or a hi-fi pass: layout pattern, first second focal point, section order, type pairing direction, measured palette with one accent, motion cues, and the laws behind each.
+Output the direction brief for base-work mode or a hi-fi pass: layout pattern, first second focal point, section order, type pairing direction, measured palette with one accent, motion cues, and the laws behind each.
 
 ## Rules
 - Credit every reference with its source link. References are for study: never copy a layout whole, never rehost an image as your own.

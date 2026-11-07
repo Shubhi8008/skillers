@@ -1,6 +1,6 @@
-# Evals: skillers-setup
+# Evals: skillers, setup mode
 
-Run each prompt in a fresh session with the library installed and a config set. Tick each check, then score with the rubric in BETA.md.
+Run each prompt in a fresh session with the skillers skill installed and a config set. Tick each check, then score with the rubric in BETA.md.
 
 ## Case 1
 **Prompt:** Set up skillers for me

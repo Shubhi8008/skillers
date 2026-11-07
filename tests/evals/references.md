@@ -1,6 +1,6 @@
-# Evals: reference-collage
+# Evals: skillers, references mode
 
-Run each prompt in a fresh session with the library installed and a config set. Tick each check, then score with the rubric in BETA.md.
+Run each prompt in a fresh session with the skillers skill installed and a config set. Tick each check, then score with the rubric in BETA.md.
 
 ## Case 1
 **Prompt:** Find references for a fintech onboarding flow for first-time investors in India. Calm, trust heavy, not dark mode.

@@ -1,12 +1,4 @@
----
-name: "ux-base-work"
-description: "Turn a short page or product brief into research-backed base work: problem statement, IA, and 3 annotated grayscale HTML wireframes applying UX laws, CRO placement, microcopy and SEO."
----
-
 # UX base work
-
-## Config
-Read the skillers config first: `$SKILLERS_CONFIG`, else `./skillers.config.json`, else `~/.skillers/config.json`. If none exists, run the `skillers-setup` skill once, then continue. Use `{user.voice}` for all copy you write, and `{defaults}` for platform and option count.
 
 Produce structure before style. Output is a wireframe someone can critique, test and hand to hi-fi.
 

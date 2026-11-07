@@ -1,4 +1,4 @@
-# refs.ps1 : helper for the reference-collage skill. Runs on the user's Windows machine.
+# refs.ps1 : helper for skillers references mode. Runs on the user's Windows machine.
 # Modes:
 #   -Mode awwwards -Query "portfolio"            -> JSON of Awwwards site cards (category slug)
 #   -Mode godly                                  -> JSON of Godly / recent.design items (latest)

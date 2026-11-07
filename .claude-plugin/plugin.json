@@ -1,9 +1,20 @@
 {
   "name": "skillers",
-  "version": "0.1.0-beta",
-  "description": "Design skill library: prompt to references, research-backed wireframes, anti-slop budgets, paper fetching, scope guard. Tailored per user through one config file.",
-  "author": { "name": "Shubham Singh Raghav" },
+  "version": "0.2.0-beta",
+  "description": "One design skill with modes: prompt to references collage, research-backed wireframes, anti-slop audits, open-access papers, full pipeline, scope guard. Tailored per user through one config file.",
+  "author": {
+    "name": "Shubham Singh Raghav"
+  },
   "homepage": "https://github.com/Shubhi8008/skillers",
   "repository": "https://github.com/Shubhi8008/skillers",
-  "keywords": ["ux", "ui", "design", "references", "moodboard", "wireframe", "anti-slop", "research"]
+  "keywords": [
+    "ux",
+    "ui",
+    "design",
+    "references",
+    "moodboard",
+    "wireframe",
+    "anti-slop",
+    "research"
+  ]
 }

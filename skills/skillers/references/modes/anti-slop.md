@@ -1,12 +1,4 @@
----
-name: "anti-slop-ux"
-description: "Set hard budgets that stop over-produced AI work, then cut UI, copy or deliverables to what serves a user task. Use before shipping generated pages, wireframes, decks or copy, or to remove AI slop."
----
-
 # Anti-slop UX
-
-## Config
-Read the skillers config first: `$SKILLERS_CONFIG`, else `./skillers.config.json`, else `~/.skillers/config.json`. If none exists, run the `skillers-setup` skill once, then continue. Use `{user.voice}` for all copy you write, and `{defaults}` for platform and option count.
 
 AI output fails in two ways: it looks like every other AI output, and it does more than was asked. Set a budget first, then cut to purpose, then score.
 
@@ -66,7 +58,7 @@ Ship at 85+ with no floor failures. Below 85, revise and score again.
 Report: score, floor status, top 5 cuts, top 3 remaining risks.
 
 ## Works with
-After `ux-base-work`, before `impeccable` critique. Pair with `stop-slop` or `humanizer` for long prose.
+After base-work mode, before `impeccable` critique. Pair with `stop-slop` or `humanizer` for long prose.
 
 ## Sources
 Nielsen 10 heuristics · Sweller cognitive load theory · Hick 1952 · Miller 1956 · Cowan 2001 · Nielsen 2008 (NN/g) · Tufte 1983 · Strunk 1918 · Krug · tells consolidated from Nutlope/hallmark, yetone/kill-ai-slop, Gesso-Build anti-slop, funboy322/avoid-ai-design, hardikpandya/stop-slop, blader/humanizer
